@@ -20,7 +20,7 @@ Bu proje, SwiftUI kullanarak veri yönetimini sağlayan, Core Data ile entegre b
 
 Proje oluştururken **"Use Core Data"** seçeneğini işaretlediğinizden emin olun. Bu, Core Data için gerekli olan `DataModel` dosyasını oluşturur ve AppDelegate'e ilgili kodları ekler.
 
-### 3. **SwiftUI ile Kullanım**
+### 2. **SwiftUI ile Kullanım**
 
 Core Data'yı SwiftUI ile kullanmak için, `@Environment(\.managedObjectContext)` ve `@FetchRequest` özellik sarmalayıcıları kullanılır.
 
